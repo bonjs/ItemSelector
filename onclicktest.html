@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+	<TITLE> ZTREE DEMO - one click</TITLE>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<link rel="stylesheet" href="css/demo.css" type="text/css">
+	<link rel="stylesheet" href="css/zTreeStyle/zTreeStyle.css" type="text/css">
+	<script type="text/javascript" src="js/jquery-1.4.4.min.js"></script>
+	<script type="text/javascript" src="js/jquery.ztree.core.js"></script>
+	<style>
+		* {
+			padding: 0px;
+			margin: 0px;
+			
+		}
+		.bb {
+			width: 150px; 
+			height: 100%;
+			border: 1px red solid;
+		}
+		button {
+			width: 70px
+		}
+	</style>
+ </HEAD>
+<BODY>
+	<div style="border:1px blue solid; width: 400px; height: 300px; position: relative">
+		<div id="demo" class="ztree bb" style="position: absolute;left: 0px; top: 0px;"></div>
+		<div style="margin: 0 auto;text-align: center; width: 80px;  height: 100%">
+			<button id="add">></button>
+			<button id="remove"><</button>
+		</div>
+		<div id="right" class="bb" style="position: absolute;right: 0px; top:0px">
+		</div>
+		<div style="clear: both"></div>
+	</div>
+<SCRIPT type="text/javascript" src="src/TreeSelector.js"></script>
+</BODY>
+</HTML>
